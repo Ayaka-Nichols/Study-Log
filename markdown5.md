@@ -349,15 +349,5 @@
 
 ## 難しかったこと
 
-1. メソッドチェーンによる複雑なクエリがよく理解できない
-    <br>↓これは何が起きている？
-    ```
-    >>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    <QuerySet [<Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>, <Post: Sample title>]>
-    ```
-2. テンプレート内の動的データのクエリセットの部分がよくわからない
-   
-
-
 
 ## 解決できなかったこと
